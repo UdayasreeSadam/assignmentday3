@@ -1,0 +1,133 @@
+1. Tuples
+
+a=(1,2,3)
+print(a)
+print(a[0:1])
+
+output: (1,2,3)
+(1,2)
+
+operations in tuples:
+
+a=(1,2,3)
+b=(4,5,6)
+c=a+b
+print(c)
+print(a*5)
+print(3 in a)
+
+output:(1,2,3,4,5,6)
+(1,2,3,1,2,3,1,2,3,1,2,3,1,2,3)
+True
+
+
+2.Dictionaries 
+
+a={1:23,3:14}
+print(a)
+
+output: {3:14,1:23}
+
+methods in dictionaries
+
+get method: It returns value for the key
+
+x={'name':"hi",'age':7}
+print(x.get('name'))
+print(x.get('age'))
+
+hi
+7
+
+has-key method: Returns true if key is in dictionary otherwise false
+
+x={'name':"hi",'age':7}
+print(x.has-key('name'))
+print(x.has-key('age'))
+print(x.has-key(1))
+
+True
+True
+False
+
+Items method:Returns a list of dictionary tuple
+
+x={'name':"hi",'age':7}
+print(x.items())
+
+[(name,hi),(age,7)]
+
+keys method: It returns list of dictionary keys
+
+x={'name':"hi",'age':7}
+print(x.keys())
+
+[name,age]
+
+values method:It returns list of dictionary values
+
+x={'name':"hi",'age':7}
+print(x.values())
+
+[hi,7]
+
+
+3.Assignment operators
+
+a=10
+print(a+=10)
+print(a-=10)
+print(a*=2)
+print(a/=2)
+print(a%=2)
+print(a//=4)
+print(a**=2)
+
+20
+0
+100
+5
+0
+2
+10000
+
+
+4. comparision operators
+
+a=10
+b=20
+if(a<=b):
+	print("true")
+elif(a>=b):
+	print("false")
+elif(a==b):
+	print("equal")
+elif(a!=b):
+	print("not equal")
+else:
+	print("incorrect")
+
+
+5.bitwise operators
+
+a=1
+b=2
+print(x&y)
+print(x|y)
+print(x<<y)
+print(x>>y)
+print(x^y)
+
+
+0
+3
+1
+2
+3
+
+
+
+
+
+
+
